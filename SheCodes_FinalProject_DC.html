@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lisbon 🇵🇹</title>
+    <style>
+      body {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/564/original/0750D49C-1371-4546-983B-9AF5EE62F446.JPG?1634944363");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100%;
+        max-width: 100%;
+      }
+      h1 {
+        color: white;
+        font-family: "IM Fell DW Pica", serif;
+        font-size: 70px;
+        letter-spacing: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      h2 {
+        color: white;
+        font-size: 30px;
+        font-family: "IM Fell DW Pica", serif;
+        letter-spacing: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      ul {
+        display: inline-flex;
+        list-style: none;
+        padding: 0;
+      }
+      p {
+        color: white;
+        line-height: 1.5;
+        margin: 10px 25px 10px 25px;
+        text-align: center;
+      }
+      h3 {
+        color: white;
+        font-size: 28px;
+        font-family: "IM Fell DW Pica", serif;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        text-align: center;
+      }
+      li {
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        font-family: "IM Fell DW Pica", serif;
+      }
+      button {
+        background: white;
+        border-radius: 40px;
+        box-shadow: 2px 2px 5px #bebcc9;
+        border-color: #374f57;
+        border-width: thin;
+        color: #374f57;
+        display: block;
+        font-size: 20px;
+        margin: 10px auto;
+        padding: 15px 25px 15px 25px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: linear-gradient(#374f57, white);
+        color: white;
+        cursor: pointer;
+      }
+      footer {
+        color: white;
+        font-family: "IM Fell DW Pica", serif;
+        font-size: 24px;
+        text-align: center;
+      }
+      strong {
+        font-size: 40px;
+        font-family: "IM Fell DW Pica", serif;
+      }
+      .content {
+        text-align: center;
+      }
+      .about,
+      .places,
+      .restaurants {
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+      }
+      .about:hover,
+      .places:hover,
+      .restaurants:hover {
+        text-decoration: underline;
+        text-decoration-color: orange;
+      }
+      .lisbonInfo {
+        font-size: 19px;
+        text-align: center;
+      }
+      .learnMore {
+        color: white;
+      }
+      .listImages {
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+      .container {
+        height: auto;
+        position: relative;
+        width: auto;
+      }
+      .image {
+        backface-visibility: hidden;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: block;
+        height: 425px;
+        margin-bottom: 15px;
+        opacity: 1;
+        transition: 0.5s ease;
+        width: 100%;
+      }
+      .middle {
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transition: 0.5s ease;
+        text-align: center;
+        top: 50%;
+      }
+      .container:hover .image {
+        opacity: 0.3;
+      }
+      .container:hover .middle {
+        opacity: 1;
+      }
+      .text {
+        background-color: transparent;
+        color: white;
+        font-family: "IM Fell DW Pica", serif;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .icones {
+        margin-top: 10px;
+      }
+      .subscribeInfo {
+        background-color: rgba(55, 79, 87, 0.7);
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>LISBON</h1>
+      <h2>Portugal🇵🇹</h2>
+      <ul>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Lisbon"
+            target="_blank"
+            class="about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.planetware.com/tourist-attractions-/lisbon-p-lisb-lisb.htm"
+            target="_blank"
+            class="places"
+          >
+            Places to Visit
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.cntraveler.com/gallery/best-restaurants-in-lisbon"
+            target="_blank"
+            class="restaurants"
+          >
+            Restaurants
+          </a>
+        </li>
+      </ul>
+      <br />
+      <hr />
+      <p>
+        <span class="lisbonInfo">
+          If you’re dreaming about your next trip to Europe, come and discover
+          Lisbon, a historical city full of stories to tell, where the sun
+          shines 290 days a year and the temperature rarely drops below 15oC. A
+          city where you feel safe wandering around day or night, where the
+          cuisine is dedicated to creating over a thousand ways to cook the
+          beloved bacalhau (salted cod), and where you’ll find hotels and
+          restaurants to suit every taste, budget and requirement. <br />
+          <br />Discover Lisbon, a city full of authenticity where old customs
+          and ancient history intermix with cultural entertainment and hi-tech
+          innovation. Lisbon is ageless, but it loves company, as you’ll find
+          out if you meet someone and ask them to explain, with lots of gestures
+          and repetition, where the best place is to listen to Fado. After all,
+          Lisbon is famous for its hospitality and the family-like way it
+          welcomes visitors.<br />
+          <a
+            href="https://www.visitlisboa.com/en/p/why-lisbon"
+            target="_blank"
+            class="learnMore"
+          >
+            Learn more on Visit Lisboa</a
+          >
+        </span>
+      </p>
+      <hr />
+      <h3>Top Attractions</h3>
+    </div>
+    <ul>
+      <li class="listImages">
+        <div class="container">
+          <a
+            href="https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/581/original/ED5038D4-B040-478A-A10B-37C66E60F16D-18228301-4385-40F5-B60B-A80D474D08D8.JPG?1634951391"
+              alt="Belem Tower"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>Belem Tower</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="listImages">
+        <div class="container">
+          <a
+            href="https://padraodosdescobrimentos.pt/en/monument-to-the-discoveries/"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/569/original/2E876CFC-6AB2-4A47-AA66-E5118813AFFA.JPG?1634948453"
+              alt="Monument to the Discoveries"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>Monument to the Discoveries</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="listImages">
+        <div class="container">
+          <a
+            href="https://en.wikipedia.org/wiki/25_de_Abril_Bridge"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/565/original/26B2BBBC-D6AA-45E1-8B71-375606B89E1B.JPG?1634948050"
+              alt="25th April Bridge"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>25th April Bridge</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li class="listImages">
+        <div class="container">
+          <a
+            href=" https://www.fchampalimaud.org/spaces/outdoor-amphitheatre"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/577/original/7904F1B1-89E5-49A2-BEF6-7AE695B5213E.JPG?1634950876"
+              alt="Champalimaud Foundation"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>Champalimaud Foundation</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="listImages">
+        <div class="container">
+          <a
+            href="https://en.wikipedia.org/wiki/Parque_das_Na%C3%A7%C3%B5es"
+            target="_blank"
+          >
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/568/original/IMG_2565.jpg?1634948137"
+              alt="Parque das Nações"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>Parque das Nações</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="listImages">
+        <div class="container">
+          <a href="https://maat.pt/en" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/575/original/71A19127-2020-49B2-9DE7-9435BA1A378E-909841F5-E825-4960-9D42-69F799C4628A.jpg?1634949466"
+              alt="MAAT"
+              class="image"
+            />
+          </a>
+          <div class="middle">
+            <div class="text">
+              📍
+              <em>MAAT</em>
+              <hr />
+              📸:
+              <em>Danya Cassam</em>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <br />
+    <br />
+    <p class="subscribeInfo">
+      <strong>Sign Up for Updates!</strong><br />
+      Join our emial list to receive updates and exclusive offers directly in
+      your box
+      <br />
+    </p>
+    <button type="button">Subscribe</button>
+    <br />
+    <footer>
+      © Coded by Danya Cassam
+      <br />
+      <div class="icones">
+        <a
+          href="https://www.linkedin.com/in/danya-cassam-2b20ba15b/"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/661/original/logo-linkedin-icon-2048.png?1635023445"
+            alt="Linkedin Icon"
+            width="40"
+          />
+        </a>
+        <a href="https://www.instagram.com/danyac.ph/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/660/original/Instagram_icon.png?1635023337"
+            alt="Instagram Icon"
+            width="40"
+          />
+        </a>
+      </div>
+    </footer>
+    <script>
+      function subscribe() {
+        let firtsName = prompt("What is your first name?");
+        let lastName = prompt("What is your last name?");
+        let fullName = firtsName + " " + lastName;
+        let email = prompt("What is your email address?");
+
+        if (fullName.length > 0 && email.length > 0) {
+          alert(
+            "Thank you " +
+              fullName +
+              " for subscribe! We'll be in touch by email 😎📸"
+          );
+        } else {
+          alert(
+            "Please try again! Insert a correct name and email address to subscribe. Thank you 😊"
+          );
+        }
+      }
+      let subscribeButton = document.querySelector("button");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
